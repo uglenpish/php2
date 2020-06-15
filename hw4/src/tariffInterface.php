@@ -2,7 +2,7 @@
 interface TariffInterface
 {
   public function countPrice(): int;
-  public function addService(ServiceInterface $service, &$price);
+  public function addService(ServiceInterface $service): self;
   public function getTime(): int;
   public function getDistance(): int;
 }

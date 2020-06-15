@@ -28,9 +28,8 @@ abstract class AbstractTariff implements TariffInterface
     return $price;
   }
 
-  public function addService(ServiceInterface $service, &$price): TariffInterface
+  public function addService(ServiceInterface $service): TariffInterface
   {
-
     array_push($this->services, $service);
     return $this;
   }
