@@ -31,10 +31,10 @@ class Db
     $dbName = DB_NAME;
     $dbUser = DB_USER;
     $dbPassword = DB_PASSWORD;
-    $dbCharset = DB_CHARSET;
+
 
     if (!$this->pdo) {
-      $this->pdo = new \PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPassword, $dbCharset);
+      $this->pdo = new \PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPassword);
     }
 
     return $this->pdo;
@@ -89,9 +89,7 @@ class Db
     $t = microtime(1);
     $pdo = $this->getConnection();
     $prepared = $pdo->prepare($query);
-
     $ret = $prepared->execute($params);
-
 
     if (!$ret) {
       $errorInfo = $prepared->errorInfo();
