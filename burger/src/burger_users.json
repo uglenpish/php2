@@ -1,0 +1,14 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 4.6.6deb5
+ */
+
+// Database 'burger_users'
+
+// burger_users.orders
+
+[{"id":"1","user_id":"4","phone":null,"user_address":null,"comment":null,"payment":null,"date":"2020-06-18 15:36:31"}, {"id":"2","user_id":"4","phone":"7","user_address":"\u00d1\u0192\u00d0\u00bb\u00d0\u00b8\u00d0\u00b1\u00d0\u00b8\u00d0\u00bd\u00d0\u00b0,3,r4,34,1,","comment":null,"payment":null,"date":"2020-06-18 15:47:40"}, {"id":"3","user_id":"5","phone":"+7 (111) 111 11 11","user_address":"K\u00d1\u0192\u00d0\u00bb\u00d0\u00b8\u00d0\u00b1\u00d0\u00b8\u00d0\u00bd\u00d0\u00b0,32,4,34,14,","comment":null,"payment":null,"date":"2020-06-18 15:52:04"}, {"id":"4","user_id":"5","phone":"+7 (111) 111 11 11","user_address":"\u00d0\u00ba\u00d1\u0192\u00d0\u00bb\u00d0\u00b8\u00d0\u00b1\u00d0\u00b8\u00d0\u00bd\u00d0\u00b0,32,4,34,14,","comment":null,"payment":null,"date":"2020-06-18 16:48:07"}]
+
+// burger_users.users
+
+[{"id":"1","email":"uglenpish@rambler.ru","num_order":"8","name":"dima"}, {"id":"2","email":"rebnh@email.ru","num_order":"2","name":"nina"}, {"id":"3","email":"rem@mail.ru","num_order":"1","name":"vasya"}, {"id":"4","email":"rem2@mail.ru","num_order":"4","name":"vasya2"}, {"id":"5","email":"rem3@mail.ru","num_order":"2","name":"vasya3"}]
